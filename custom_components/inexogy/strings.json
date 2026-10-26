@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "inexogy / Discovergy",
+        "description": "Credentials of the inexogy portal (my.inexogy.com).",
+        "data": {
+          "email": "E-mail",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "E-mail or password is wrong.",
+      "cannot_connect": "inexogy could not be reached.",
+      "no_meters": "The account has no meter attached."
+    },
+    "abort": {
+      "already_configured": "This meter is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power": { "name": "Consumption" },
+      "power_out": { "name": "Feed-in" },
+      "energy_in": { "name": "Meter reading consumption" },
+      "energy_out": { "name": "Meter reading feed-in" }
+    }
+  }
+}

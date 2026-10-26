@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "inexogy / Discovergy",
+        "description": "Zugangsdaten des inexogy-Portals (my.inexogy.com).",
+        "data": {
+          "email": "E-Mail",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "E-Mail oder Passwort ist falsch.",
+      "cannot_connect": "inexogy ist nicht erreichbar.",
+      "no_meters": "Im Konto ist kein Zähler hinterlegt."
+    },
+    "abort": {
+      "already_configured": "Dieser Zähler ist bereits eingerichtet."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power": { "name": "Bezug" },
+      "power_out": { "name": "Einspeisung" },
+      "energy_in": { "name": "Zählerstand Bezug" },
+      "energy_out": { "name": "Zählerstand Einspeisung" }
+    }
+  }
+}
